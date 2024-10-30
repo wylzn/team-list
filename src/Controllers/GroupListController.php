@@ -20,7 +20,7 @@ class GroupListController extends AbstractListController
 
     protected function data(ServerRequestInterface $request, Document $document)
     {
-        RequestUtil::getActor($request)->assertCan('clarkwinkelmann-group-list.see');
+        RequestUtil::getActor($request)->assertCan('wylzn-group-list.see');
 
         $items = GroupListItem::query()->orderBy('order')->get();
 

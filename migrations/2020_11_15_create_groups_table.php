@@ -5,7 +5,7 @@ use Illuminate\Database\Schema\Builder;
 
 return [
     'up' => function (Builder $schema) {
-        $schema->create('clarkwinkelmann_group_list', function (Blueprint $table) {
+        $schema->create('wylzn_group_list', function (Blueprint $table) {
             $table->increments('id');
             $table->unsignedInteger('group_id')->unique();
             $table->text('content')->nullable();
@@ -15,6 +15,6 @@ return [
         });
     },
     'down' => function (Builder $schema) {
-        $schema->dropIfExists('clarkwinkelmann_group_list');
+        $schema->dropIfExists('wylzn_group_list');
     },
 ];
