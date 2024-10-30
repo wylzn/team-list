@@ -26,7 +26,7 @@
         }
     ],
     "support": {
-        "source": "https://github.com/wylzn/team-list",
+        "source": "https://github.com/wylzn/team-list"
     },
     "autoload": {
         "psr-4": {
