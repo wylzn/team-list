@@ -1,6 +1,6 @@
 # Group List
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/wylzn/teamlist.svg)](https://packagist.org/packages/wylzn/teamlist) [![Total Downloads](https://img.shields.io/packagist/dt/wylzn/teamlist.svg)](https://packagist.org/packages/wylzn/teamlist)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/wylzn/team-list.svg)](https://packagist.org/packages/wylzn/teamlist) [![Total Downloads](https://img.shields.io/packagist/dt/wylzn/team-list.svg)](https://packagist.org/packages/wylzn/team-list)
 
 List select groups and their members on a new `/team` page of the forum.
 
